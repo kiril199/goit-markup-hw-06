@@ -887,10 +887,10 @@ color: #ffffff;
 }
 .footer-container-sic{
     text-align: left;
+    margin: 0 auto;
 }
 .footer-container-name {
     margin: 0 auto;
-    
 }
 .footer-sic {
     margin-bottom: 10px;
@@ -904,6 +904,9 @@ color: #ffffff;
 .footer-field-action {
     display: flex;
     gap: 24px;
+}
+.footer-btn {
+    margin: 0 auto;
 }
 }
 
