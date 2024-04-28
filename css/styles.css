@@ -124,7 +124,7 @@ img {
     position: fixed;
     top: 0;
     background-color: #fff;
-    padding: 24px 24px 40px 16px;
+    padding: 72px 24px 40px 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -147,6 +147,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
 }
 
 .mob-btn {
@@ -157,6 +160,9 @@ img {
 
 }
 
+.mob-list-item {
+    color: ;
+}
 .mob-menu-item:not(:last-child) {
 margin-bottom: 40px;
 }
@@ -167,10 +173,6 @@ margin-bottom: 40px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.address-mob-list {
-    margin-top: 48px;
 }
 
 .address-mob-item {}
@@ -422,8 +424,8 @@ margin-bottom: 40px;
 
 
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -431,7 +433,7 @@ margin-bottom: 40px;
 }
 
 .features-item-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -484,6 +486,13 @@ margin-bottom: 40px;
 .features-icon {
     display: block;
 }
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+}
+.features-item-title {
+    font-weight: 400;
+}
 }
 
 /*-----------------taste----------------*/
@@ -510,12 +519,13 @@ margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
 }
 
 .taste-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    width: 100%;
+    width: 264px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -546,12 +556,12 @@ margin-bottom: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .icon-list {
     display: flex;
     gap:24px;
-    padding-top: 8px;
     justify-content: center;
 }
 
@@ -673,8 +683,9 @@ padding-bottom: 120px;
 
 .made-image {
     margin: 0 auto;
-    width: 360px;
-    height: 300px;
+    max-width: 100%;
+    /* width: 360px;
+    height: 300px; */
 }
 
 .made-container {
@@ -744,8 +755,9 @@ padding-bottom: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
+    display:block;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 
@@ -780,7 +792,6 @@ padding-bottom: 120px;
 .icon-footer {
     display: flex;
     gap:16px;
-    margin-top: 16px; 
     align-items: center;
     justify-content: center;
 }
@@ -832,7 +843,7 @@ color: #ffffff;
 }
 
 .footer-input {
-width: 264px;
+width: 288px;
 height: 40px;
 border: 1px solid #ffffff;
 background-color: transparent;
@@ -881,19 +892,16 @@ color: #ffffff;
     }
 .footer-wrap-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 78px;
+    align-items: baseline;
+    margin-bottom: 72px;
+    gap: 24px;
 }
 .footer-container-sic{
     text-align: left;
-    margin: 0 auto;
-}
-.footer-container-name {
-    margin: 0 auto;
 }
 .footer-sic {
     margin-bottom: 10px;
+    text-align: left;
 }
 .footer-name {
     text-align: left;
@@ -905,8 +913,8 @@ color: #ffffff;
     display: flex;
     gap: 24px;
 }
-.footer-btn {
-    margin: 0 auto;
+.footer-input {
+    width: 264px;
 }
 }
 
